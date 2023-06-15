@@ -1,0 +1,88 @@
+@charset "utf-8";
+
+/*
+   Author: Kutlwano Pitse
+   
+   Filename: styles.css
+
+*/
+ 
+body {
+	margin: 0 auto;
+	max-width: 1020px;
+	min-width: 640px;
+    font-family: sans serif , arial;
+	 }
+	 
+.image-container {
+  display: flex;
+  justify-content: center;
+  margin-top: 20px;
+}
+
+img {
+  max-width: 300px;
+  margin: 10px;
+}
+
+
+
+
+header {
+  text-align:center;
+  }
+  
+  
+  nav {
+    background-color: #f2f2f2;
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+li {
+    display: inline-block;
+}
+
+li a {
+    display: block;
+    padding: 10px;
+    text-decoration: none;
+    color: #333;
+}
+
+li a:hover {
+    background-color: #ddd;
+}
+
+ 
+em {
+    font-size:medium;
+	} 
+	
+	 table {
+      width: 100%;
+      border-collapse: collapse;
+    }
+    
+    th, td {
+      border: 1px solid #ddd;
+      padding: 8px;
+      text-align: left;
+    }
+    
+    th {
+      background-color: #f2f2f2;
+    }
+    
+    tr:nth-child(even) {
+      background-color: #f9f9f9;
+    } 
+
+
+
+
+
